@@ -12,3 +12,8 @@ const rainbow = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet']
 rainbow.forEach((color) => {
   console.log(color);
 });
+
+// generate a function that returns a random number between 1 and 10
+function randomNum() {
+  return Math.floor(Math.random() * 10) + 1;
+}
